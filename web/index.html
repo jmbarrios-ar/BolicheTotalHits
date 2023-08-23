@@ -72,7 +72,7 @@
   <section class="reproductor">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 my-3">
           <!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
           <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
           <script type="text/javascript">
@@ -104,7 +104,6 @@
             <h5 class="card-title text-center">Nosotros</h5>
             <img src="/assets/images/night-club-wallpapers.jpg" class="card-img-top my-3" alt="vinyl-dj" width="120"
               height="100">
-            <!--<img src="/assets/images/cassettean_j7stc15k.gif" class="img-fluid" alt="cassette-dj">-->
             <div class="card-body">
               <p class="card-text">Te invitamos a disfrutar de un viaje musical para escuchar desde el Top Ranking hasta
                 el Retro de los Recuerdos, en tandas y sin cortes, compartiendo juntos en una Apología Remix.</p>
@@ -112,25 +111,68 @@
           </div>
         </div>
         <div class="col-4 my-1">
-          <form class="row needs-validation" novalidate>
-          <h5 class="card-title text-center">Dejanos tu mensaje</h5>
-          <div class="mb-3 my-3">
-            <label for="exampleFormControlTextarea1" class="form-label"><h6>Nombre</h6></label>
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          <div class="well well-sm">
+            <form class="form-horizontal" method="post">
+              <fieldset>
+                <legend class="text-center header"><h5>Dejanos tu mensaje</h5></legend>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center">
+                  <div class="col-md-8 my-3">
+                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center">
+                  <div class="col-md-8 my-3">
+                    <input id="email" name="email" type="text" placeholder="Correo Electrónico" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center">
+                  <div class="col-md-8 my-3">
+                    <textarea class="form-control" id="message" name="message"
+                      placeholder="Escribe tu mensaje para nosotros aquí"
+                      rows="7"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-dark">Enviar</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"><h6>Correo Electrónico</h6></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea2" class="form-label"><h6>Mensaje</h6></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="mb-3">
-            <button class="btn btn-primary" type="submit">Enviar</button>
-          </div>
-          </form>
         </div>
+        <!--<div class="col-4 my-1">
+          <form class="row needs-validation" novalidate>
+            <h5 class="card-title text-center">Dejanos tu mensaje</h5>
+            <div class="mb-3 my-3">
+              <label for="exampleFormControlTextarea1" class="form-label">
+                <h6>Nombre</h6>
+              </label>
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">
+                <h6>Correo Electrónico</h6>
+              </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea2" class="form-label">
+                <h6>Mensaje</h6>
+              </label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div> -->
         <div class="col-4 my-1">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
