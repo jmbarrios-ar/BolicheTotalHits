@@ -2,3 +2,8 @@ header{
     background-color: black;
 }
 
+.reprod{
+    border: 1px solid black;
+    width: 250px;
+    height: 140px;
+}
