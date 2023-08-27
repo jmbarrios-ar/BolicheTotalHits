@@ -9,28 +9,34 @@ header{
 }
 .navbar-brand img{
     align-items: center;
-    height: 25px;
+    height: 40px;
     margin-right: 10px;
 }
 .reproductor{
-     background-color: black;
+     background-color: rgb(29, 29, 29);
 }
 .card{
     width: 18rem;
-    background-color:  rgb(22, 22, 22);
+    background-color:  black;
 }
 .nosotros{
-    background-color:  black;
+    background-color:  rgb(29, 29, 29);
 }
 .card-link{
     color: grey;
 }
-footer{
-    background-color: black"
-}
+
 .card-title{
     color: white;
+    padding: 20px;
 }
 .card-text{
     color: white;
+}
+
+footer{
+    background-color: black;"
+}
+ul{
+    line-height: 10px;
 }
