@@ -5,18 +5,24 @@ header{
     background-color: black;
 }
 .reproductor{
-     background-color: rgb(22, 22, 22) ;
+     background-color: black;
 }
 .card{
-    width: 24rem;
-    background-color: rgb(207, 207, 207) ;
-}
-.nosotros{
+    width: 18rem;
     background-color:  rgb(22, 22, 22);
 }
+.nosotros{
+    background-color:  black;
+}
 .card-link{
-    color: darkblue;
+    color: grey;
 }
 footer{
     background-color: black"
+}
+.card-title{
+    color: white;
+}
+.card-text{
+    color: white;
 }
