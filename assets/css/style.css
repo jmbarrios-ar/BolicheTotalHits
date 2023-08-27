@@ -34,6 +34,10 @@ header{
 .card-text{
     color: white;
 }
+.list-group{
+    font-size: small;
+    font-weight: normal;
+}
 
 footer{
     background-color: black;"
