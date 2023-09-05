@@ -48,7 +48,9 @@ header{
     background-color: black;
     color: white;
 }
-
+.navbar {
+    background-color: black;
+}
 footer{
     background-color: black;"
 }
