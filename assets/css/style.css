@@ -39,6 +39,11 @@ header{
     font-size: small;
     font-weight: normal;
 }
+#reprod {
+    width: auto;
+    height: auto;
+
+}
 
 .ranking{
     background-color: black;
