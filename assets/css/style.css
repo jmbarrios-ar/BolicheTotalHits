@@ -40,7 +40,7 @@ header{
     font-weight: normal;
 }
 #reprod {
-    width: auto;
+    width:max-content;
     height: auto;
 
 }
