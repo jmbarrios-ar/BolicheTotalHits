@@ -57,3 +57,32 @@ footer{
 ul{
     line-height: 10px;
 }
+
+/* Customize the advanced audio player's appearance here */
+.audio-player {
+    width: 300px;
+    margin: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+#current-time, #total-time {
+    margin-top: 10px;
+}
